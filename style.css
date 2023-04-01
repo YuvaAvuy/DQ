@@ -1,0 +1,102 @@
+body {padding-left: 10px;
+  
+  align-items: center;
+  }
+  #navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20 px rgba(0,0,0,.5);
+    background:black;
+  }
+  .navbar.navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color:plum !important;
+  }
+  #navbarSupportedContent a{
+    color:white;
+    border-bottom: 2px solid transparent;
+  }
+  #navbarSupportedContent a:hover{
+    border-bottom: 2px solid plum;
+  }
+ .dq {
+   padding-top: 30px;
+   
+  }
+  h4{
+    font-size: 70px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: white;
+  }
+  
+  .containeri{
+    background-color:slategrey;
+    width: 1200px;
+ height: 2700px;
+  margin: auto;
+  border: 10px solid black;
+  }
+  
+  p{
+    font-size: 20px;
+    color: white;
+  }
+ #dq img{box-shadow: 2px 4px 5px rgba(0,0,0,200),
+  inset 4px 4px 10px black;
+  }
+  #dq img:hover{box-shadow: inset 5px 5px 10px rgba(0,0,0,50),
+  inset -4px -4px 50px white;
+  transition: .5s;}
+  #content button{
+    background:orangered;
+    width: 10rem;
+    border-radius: 15px;
+    box-shadow: 2px 4px 5px rgba(0,0,0,100);
+  }
+  #content button:hover{
+    background-color:white;
+    color:black;
+  }
+  
+  #products h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  #products img{
+    width: 200px;
+    height: 300px;
+  }
+  .card{
+    width: 250px;
+    height: 250;
+    background:white!important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+               inset 4px 4px 10px white;
+    border-radius: 20 px !important;
+    overflow: hidden;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .2s;
+  }
+  .card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.5),
+               inset -4px -4px 10px whitesmoke;
+               transition: .2s;
+  }
+  #buttons button{
+    background:powderblue;
+    width: 10rem;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px rgba(0,0,0,100);
+  }
+  #content button:hover{
+    background-color:white;
+    color:black;
+  }
